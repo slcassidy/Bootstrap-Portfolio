@@ -76,11 +76,17 @@ li{
     /* font-size: 95%; */
 }
 
-li:hover{
+.Navcolor{
+    /* background-color:#4aaaa5; */
+}
+
+/* li:hover,
+.Navcolor{
     background-color:#4aaaa5;
     font-weight: bold;
     color: white;
-}
+
+} */
 
 /* li a {
     display: block;
