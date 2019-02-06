@@ -30,13 +30,23 @@ header{
 
 }
 
+.cardbox{
+    width: 400px;
+    height: 230px;
+
+    /* <!-- style="width:280px; height: 230px;"  --> */
+}
+
+text-align: center;
+color: white;
+
 .classcolor{
     background-color: #4aaaa5;
 }
 
-h1{
+/* h1{
     font-family: 'Georgia', Times, "Times New Roman", serif;
-}
+} */
 
 .Topbox{
 
@@ -272,7 +282,7 @@ h5{
   }
 
   .label-box {
-    position: absolute;
+    /* position: absolute; */
     width: 280px;
     height: 50px;
     background: #4aaaa5;
@@ -284,12 +294,12 @@ h5{
     text-justify: auto;
     text: bold;
     color: white;
-    text
     /* z-index: 4; */
     /* bottom: 300px; */
     /* clear: both; */
     /* left: 14px; */
     /* overflow: auto; */
+    z-index: 4;  
     
   }
 
